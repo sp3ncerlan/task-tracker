@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/task-app.iml" filepath="$PROJECT_DIR$/.idea/task-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks-be/src/main/main.iml" filepath="$PROJECT_DIR$/tasks-be/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks-fe/tasks-fe.iml" filepath="$PROJECT_DIR$/tasks-fe/tasks-fe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks-be/src/test/test.iml" filepath="$PROJECT_DIR$/tasks-be/src/test/test.iml" />
     </modules>
   </component>
 </project>
