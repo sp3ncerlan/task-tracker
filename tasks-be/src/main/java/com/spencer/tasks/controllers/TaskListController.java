@@ -1,9 +1,13 @@
 package com.spencer.tasks.controllers;
 
+import com.spencer.tasks.domain.dto.TaskDto;
 import com.spencer.tasks.domain.dto.TaskListDto;
+import com.spencer.tasks.domain.entities.Task;
 import com.spencer.tasks.domain.entities.TaskList;
 import com.spencer.tasks.mappers.TaskListMapper;
+import com.spencer.tasks.mappers.TaskMapper;
 import com.spencer.tasks.services.TaskListService;
+import com.spencer.tasks.services.TaskService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -17,7 +21,7 @@ public class TaskListController {
     private final TaskListService taskListService;
     private final TaskListMapper taskListMapper;
 
-    public TaskListController(TaskListService taskListService, TaskListMapper taskListMapper) {
+    public TaskListController(TaskListService taskListService, TaskListMapper taskListMapper, TaskService taskService, TaskMapper taskMapper) {
         this.taskListService = taskListService;
         this.taskListMapper = taskListMapper;
     }
